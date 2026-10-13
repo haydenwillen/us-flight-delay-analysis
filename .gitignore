@@ -1,0 +1,13 @@
+# Data is too big for GitHub (flights.csv is 592 MB). See README for download steps.
+data/
+*.csv
+*.zip
+
+# Python / Jupyter
+__pycache__/
+.ipynb_checkpoints/
+venv/
+.venv/
+
+# Mac
+.DS_Store
