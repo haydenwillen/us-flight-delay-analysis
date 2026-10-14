@@ -2,6 +2,8 @@
 
 An analysis of all 5.8 million U.S. domestic flights in 2015 (DOT on-time performance data) to find out who runs late, when, and why, and how much of it airlines could actually control.
 
+**[View the findings deck (PDF)](presentation/flight_delay_findings.pdf)**: the 8-slide version of this analysis.
+
 ## Key findings
 
 **1. 72% of delay minutes are controllable by airlines.** Late inbound aircraft (39.8%) and the airline's own operations (32.2%) cause most delay time. Weather is only 4.9%.
@@ -36,6 +38,7 @@ An analysis of all 5.8 million U.S. domestic flights in 2015 (DOT on-time perfor
 │   └── 02_delay_analysis.ipynb   four hypotheses, four charts, findings
 ├── src/load_data.py              shared loading and cleaning used by every notebook
 ├── figures/                      charts saved by the notebooks
+├── presentation/                 findings deck (PDF)
 └── requirements.txt
 ```
 
