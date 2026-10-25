@@ -24,7 +24,7 @@ An analysis of all 5.8 million U.S. domestic flights in 2015 (DOT on-time perfor
 
 **So what:** for an airline, the biggest lever is operations, not weather. Protect the first wave of morning departures, add turnaround buffer on afternoon and evening rotations, and benchmark against Delta and Alaska, who run large networks at roughly half Spirit's delay rate.
 
-## Data cleaning worth knowing about
+## Data cleaning
 
 - **October was missing.** The raw file stores every October airport as a numeric DOT ID (`10397`) instead of an airport code (`ATL`), so October silently dropped out of any airport or route analysis. I rebuilt the mapping from the data itself: the same airline, flight number, and distance in September and November flies the same route. That mapped 305 airports and recovered 99.97% of October's 486,165 flights.
 - **"Delayed" means 15+ minutes.** I use the DOT and airline industry standard. Counting any flight that's even 1 minute late would nearly double the delay rate (36.5% vs. 18.6%).
